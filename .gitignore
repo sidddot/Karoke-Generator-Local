@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+backend/.venv-sep/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Data (runtime)
+data/library/*/
+
+# Models cache
+*.ckpt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
